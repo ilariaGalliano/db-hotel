@@ -27,7 +27,6 @@ INNER JOIN `paganti`
 ON `pagamenti`.`pagante_id` = `paganti`.`id`
 WHERE  `prenotazioni`.`created_at` BETWEEN '2018-05-01' AND '2018-05-31';
 
-
 - Fai la somma di tutti i prezzi delle prenotazioni per le stanze del primo piano
 
 SELECT SUM(`pagamenti`.`price`) AS `tot_room_floor1`
