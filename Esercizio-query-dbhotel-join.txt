@@ -26,10 +26,6 @@ ON `prenotazioni`.`id` = `pagamenti`.`prenotazione_id`
 INNER JOIN `paganti`
 ON `pagamenti`.`pagante_id` = `paganti`.`id`
 WHERE  `prenotazioni`.`created_at` BETWEEN '2018-05-01' AND '2018-05-31';
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 
 - Fai la somma di tutti i prezzi delle prenotazioni per le stanze del primo piano
 
